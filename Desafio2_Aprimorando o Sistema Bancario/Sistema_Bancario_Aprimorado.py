@@ -69,7 +69,7 @@ def criar_usuario(cpf):
         print("Usuário cadastrado!!!")
         for cpf1 in dados_usuarios:
             if cpf1 == cpf:
-              print("Dados do usuário:", dados_usuarios[cpf])
+                  print("Dados do usuário:", dados_usuarios[cpf])
         
     else:    
         nome = input('Digite o nome completo do usuário:')
