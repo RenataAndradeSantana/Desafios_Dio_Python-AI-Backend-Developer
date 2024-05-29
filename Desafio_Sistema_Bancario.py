@@ -22,11 +22,8 @@ while True:
         [q] Sair
     """
     if opcao == "d":
-        # valor = float(input("Informe o valor do depósito: "))
-        # valor = input('Informe o valor do depósito:')
         
-        
-        while True:
+        while True: # Verifica se o valor digitado é numérico ou string
             valor = input('Informe o valor do depósito:')
             valor_valido = True
             for i in valor:
